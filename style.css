@@ -1,0 +1,123 @@
+ 
+          
+           * body {background-color: rgb(243, 238, 234);
+
+            }
+
+           p strong {
+            color:blue; 
+            font-size: x-large; 
+            text-align: center; 
+            font-family:'Tahoma'; 
+            font-weight: x-large;
+            margin-left: 48%;
+            top: -10px 
+        }
+        
+        
+        .form {
+            display: flex;
+            flex-direction: column;
+            margin: 40%;
+            padding: 10px;
+            width: 22%; 
+            height: auto;
+            position: absolute; 
+            top: 30px;
+            border-radius:5px; 
+           background-color:white;
+            backdrop-filter: blur(3px);
+            margin-top: 30px;
+            box-shadow: 40px;
+        }
+
+       
+        
+         .form p {
+            width: 280px;
+            font-family: Arial;
+            text-align: center; 
+            color:black; 
+            font-size:x-small;
+            font-weight: bold;
+         }
+
+         .form input {
+            width: 280px;
+            height: 30px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            border-radius: 5px;
+            color: black;
+            font-family:Arial;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            margin-left: 10px;
+        
+         }
+         .form input:focus {
+            outline: none;
+                 }
+                ::placeholder {
+                    color:black;
+            font-family:Arial;
+                }
+                .btn{
+                    width:300px;
+                    height: 40px;
+                    background: blue;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    color: white;
+                    left: 10px;
+
+                }
+               
+           
+                .btn a{
+                    text-decoration: none;
+                    color: white;
+                    font-family:'tahoma';
+                    font-weight: bold;
+                    font-size:small;
+                }
+                
+               .form .signup{
+                    color:rgb(145, 145, 184);
+                    font-family:'sans-serif';
+
+                    }
+                .btnn {
+                    width:300px;
+                    height: 40px;
+                    background: blue;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    color: white;
+
+                }
+                .btnn a{
+                    text-decoration: none;
+                    color: white;
+                    font-family:'tahoma';
+                    font-size:medium; 
+                    font-weight: bold;
+                
+                }
+
+
+                @media (max-width:600px) {
+                  p strong {
+                    margin-left: 40%;
+                  }
+            .form {
+              width: 60%;
+              height: auto;
+                margin-left: 100px;
+                padding: 1 rem;
+            }
+                }
+                   
